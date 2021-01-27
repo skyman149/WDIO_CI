@@ -1,0 +1,7 @@
+npm init -y
+npm i -D @wdio/cli
+npx wdio config -y
+
+to run test: npx wdio run wdio.conf.js  -->  npm run test
+to create report: npm run report:generate
+to open(see) report: npm run report:open
