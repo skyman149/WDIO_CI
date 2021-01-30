@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0c2ff70-a40d-44ca-8529-03ffc6e0a048" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/example.e2e.js" afterDir="false" />
     </list>
@@ -37,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lflrU94at1KnUoZ9EY4eVEq9Zu" />
@@ -53,8 +57,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.test:chrome">
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -64,7 +68,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:chrome" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test:chrome" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -74,7 +78,17 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:firefox" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test:chrome:headless" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:chrome:headless" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:firefox" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -84,7 +98,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:firefox:headless" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test:firefox:headless" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -96,10 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test:chrome" />
-        <item itemvalue="npm.test:firefox" />
-        <item itemvalue="npm.test:firefox:headless" />
-        <item itemvalue="npm.test" />
+        <item itemvalue="npm.test:chrome:headless" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +127,8 @@
       <workItem from="1610682339460" duration="47000" />
       <workItem from="1611283280504" duration="2446000" />
       <workItem from="1611285759710" duration="28860000" />
-      <workItem from="1611984521957" duration="684000" />
+      <workItem from="1611984521957" duration="1866000" />
+      <workItem from="1612031411690" duration="880000" />
     </task>
     <servers />
   </component>
@@ -133,6 +145,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="397" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607996297340">
@@ -143,21 +156,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611627110804" />
-    <state width="860" height="148" key="GridCell.Tab.0.bottom" timestamp="1611987552639">
+    <state width="860" height="148" key="GridCell.Tab.0.bottom" timestamp="1612030910985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611987552639" />
-    <state width="860" height="148" key="GridCell.Tab.0.center" timestamp="1611987552639">
+    <state width="860" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
+    <state width="860" height="148" key="GridCell.Tab.0.center" timestamp="1612030910985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611987552639" />
-    <state width="860" height="148" key="GridCell.Tab.0.left" timestamp="1611987552639">
+    <state width="860" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
+    <state width="860" height="148" key="GridCell.Tab.0.left" timestamp="1612030910985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611987552639" />
-    <state width="860" height="148" key="GridCell.Tab.0.right" timestamp="1611987552639">
+    <state width="860" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
+    <state width="860" height="148" key="GridCell.Tab.0.right" timestamp="1612030910985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611987552639" />
+    <state width="860" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
+    <state x="664" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611989741272">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="664" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1611989741272" />
   </component>
 </project>
