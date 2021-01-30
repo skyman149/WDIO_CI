@@ -26,7 +26,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test:chrome">
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -37,8 +37,41 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:chrome" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:chrome" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:firefox" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:firefox" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:firefox:headless" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:firefox:headless" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:chrome" />
+        <item itemvalue="npm.test:firefox" />
+        <item itemvalue="npm.test:firefox:headless" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -55,7 +88,7 @@
       <workItem from="1608089968710" duration="3424000" />
       <workItem from="1610682339460" duration="47000" />
       <workItem from="1611283280504" duration="2446000" />
-      <workItem from="1611285759710" duration="23080000" />
+      <workItem from="1611285759710" duration="28860000" />
     </task>
     <servers />
   </component>
@@ -71,21 +104,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611627110804" />
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom" timestamp="1611781539449">
+    <state width="1259" height="151" key="GridCell.Tab.0.bottom" timestamp="1611799594960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611781539449" />
-    <state width="1259" height="297" key="GridCell.Tab.0.center" timestamp="1611781539449">
+    <state width="1259" height="151" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611799594960" />
+    <state width="1259" height="151" key="GridCell.Tab.0.center" timestamp="1611799594960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611781539449" />
-    <state width="1259" height="297" key="GridCell.Tab.0.left" timestamp="1611781539449">
+    <state width="1259" height="151" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611799594960" />
+    <state width="1259" height="151" key="GridCell.Tab.0.left" timestamp="1611799594960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611781539449" />
-    <state width="1259" height="297" key="GridCell.Tab.0.right" timestamp="1611781539449">
+    <state width="1259" height="151" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611799594960" />
+    <state width="1259" height="151" key="GridCell.Tab.0.right" timestamp="1611799594960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="297" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611781539449" />
+    <state width="1259" height="151" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611799594960" />
   </component>
 </project>
