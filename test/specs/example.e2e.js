@@ -51,6 +51,4 @@ describe('My Login application', () => {
     })
 });
 
-// comment
-// git checkgit
 

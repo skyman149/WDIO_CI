@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0c2ff70-a40d-44ca-8529-03ffc6e0a048" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/pageobjects/courses.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/specs/navigation.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/example.e2e.js" afterDir="false" />
     </list>
@@ -57,7 +59,27 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.test:chrome:headless">
+    <configuration name="report:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="report:generate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="report:open" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="report:open" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -111,6 +133,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.test:chrome:headless" />
+        <item itemvalue="npm.report:open" />
+        <item itemvalue="npm.report:generate" />
       </list>
     </recent_temporary>
   </component>
@@ -128,8 +152,21 @@
       <workItem from="1611283280504" duration="2446000" />
       <workItem from="1611285759710" duration="28860000" />
       <workItem from="1611984521957" duration="1866000" />
-      <workItem from="1612031411690" duration="880000" />
+      <workItem from="1612031411690" duration="2513000" />
+      <workItem from="1612218036272" duration="13000" />
+      <workItem from="1612235593966" duration="23000" />
+      <workItem from="1612455545306" duration="104000" />
+      <workItem from="1612559451568" duration="2602000" />
+      <workItem from="1612562747125" duration="7975000" />
     </task>
+    <task id="LOCAL-00001" summary="update reports">
+      <created>1613087401675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613087401675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +184,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="update reports" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612032914502">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1612032914502" />
     <state x="397" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607996297340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -156,22 +201,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611627110804" />
-    <state width="860" height="148" key="GridCell.Tab.0.bottom" timestamp="1612030910985">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1612995635075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
-    <state width="860" height="148" key="GridCell.Tab.0.center" timestamp="1612030910985">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612995635075" />
+    <state width="1259" height="126" key="GridCell.Tab.0.bottom" timestamp="1612997066267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
-    <state width="860" height="148" key="GridCell.Tab.0.left" timestamp="1612030910985">
+    <state width="1259" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612997066267" />
+    <state width="1259" height="126" key="GridCell.Tab.0.center" timestamp="1612997066267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
-    <state width="860" height="148" key="GridCell.Tab.0.right" timestamp="1612030910985">
+    <state width="1259" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612997066267" />
+    <state width="1259" height="126" key="GridCell.Tab.0.left" timestamp="1612997066266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="860" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612030910985" />
+    <state width="1259" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612997066266" />
+    <state width="1259" height="126" key="GridCell.Tab.0.right" timestamp="1612997066267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612997066267" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1613087411601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613087411601" />
     <state x="664" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611989741272">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
