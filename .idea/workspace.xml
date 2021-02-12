@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0c2ff70-a40d-44ca-8529-03ffc6e0a048" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/pageobjects/courses.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/navigation.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/example.e2e.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,7 @@
       <workItem from="1612235593966" duration="23000" />
       <workItem from="1612455545306" duration="104000" />
       <workItem from="1612559451568" duration="2602000" />
-      <workItem from="1612562747125" duration="7975000" />
+      <workItem from="1612562747125" duration="9008000" />
     </task>
     <task id="LOCAL-00001" summary="update reports">
       <created>1613087401675</created>
@@ -166,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613087401675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update reports">
+      <created>1613087778227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613087778227</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update reports">
+      <created>1613088079442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613088079442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,10 +233,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612997066267" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1613087411601">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1613087781859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613087411601" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613087781859" />
     <state x="664" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611989741272">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
