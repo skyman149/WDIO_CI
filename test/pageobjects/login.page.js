@@ -1,4 +1,3 @@
-//const Page = require('./page');
 import Page from './page';
 
 /**
@@ -13,12 +12,13 @@ class LoginPage extends Page {
     get btnSubmit () { return $('button[type="submit"]') }
     get usernameValidation () { return $('//div[@class="ant-col ant-form-item-control" and div//input[@id="normal_login_email"]]//div[@role="alert"]') }
     get passwordValidation () { return $('//div[@class="ant-col ant-form-item-control" and div//input[@id="normal_login_password"]]//div[@role="alert"]') }
+
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
 
-    setUsername (username){
+    setUsername (username) {
         this.inputUsername.setValue(username);
     }
 
@@ -26,19 +26,18 @@ class LoginPage extends Page {
         this.clearInput(this.inputUsername);
     }
 
-    setPassword (password){
+    setPassword (password) {
         this.inputPassword.setValue(password);
     }
 
-    clickSubmit (){
+    clickSubmit () {
         this.btnSubmit.click();
     }
 
-
     login (username, password) {
-        this.inputUsername.setValue(username);
-        this.inputPassword.setValue(password);
-        this.btnSubmit.click(); 
+        this.setUsername(username);
+        this.setPassword(password);
+        this.clickSubmit();
     }
 
     /**
@@ -49,5 +48,4 @@ class LoginPage extends Page {
     }
 }
 
-//module.exports = new LoginPage();
 export default new LoginPage();

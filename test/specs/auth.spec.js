@@ -1,6 +1,3 @@
-// const LoginPage = require('../pageobjects/login.page');
-// const SecurePage = require('../pageobjects/secure.page');
-
 import LoginPage from '../pageobjects/login.page';
 import ProfilePage from '../pageobjects/profile.page';
 
@@ -9,16 +6,12 @@ describe('My Login application', () => {
         {
             username: "fapecep930@ahhtee.com",
             password: "qwerty123"
-        },
-        // {
-        //     username: "fapecep930@ahhtee.com",
-        //     password: "qwerty123"
-        // }
+        }
     ];
 
     beforeEach(() => {
         LoginPage.open();
-    })
+    });
 
     for (const iteration of credentials) {
         it('should login with valid credentials', () => {
@@ -28,21 +21,20 @@ describe('My Login application', () => {
     }
 
     it('submit button should be disabled if input fields are empty', () => {
-       expect(LoginPage.btnSubmit).not.toBeClickable(); // correct one
-        //expect(LoginPage.btnSubmit).toBeClickable(); // to test if screenshot is working
+        expect(LoginPage.btnSubmit).not.toBeClickable();
     });
 
     it('auth fails if wrong credentials provided', () => {
         LoginPage.setUsername('example@example.com');
         LoginPage.setPassword('123456');
         LoginPage.clickSubmit();
-        expect(LoginPage.notification).toHaveText("Auth failed");
+        expect(LoginPage.notification).toHaveText('Auth failed');
     });
 
     it('email format validation', () => {
         LoginPage.setUsername('123');
-        expect(LoginPage.usernameValidation).toHaveText("'email' is not a valid email");
-    })
+        expect(LoginPage.usernameValidation).toHaveText(`'email' is not a valid email`);
+    });
 
     it('email required validation', () => {
         LoginPage.setUsername('123');
@@ -50,5 +42,3 @@ describe('My Login application', () => {
         expect(LoginPage.usernameValidation).toHaveText('Required');
     })
 });
-
-
