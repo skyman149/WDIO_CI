@@ -1,0 +1,17 @@
+Index: test/pageobjects/courses.page.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test/pageobjects/courses.page.js	(date 1612996968838)
++++ test/pageobjects/courses.page.js	(date 1612996968838)
+@@ -0,0 +1,8 @@
++import AppPage from "./app.page";
++
++class CoursesPage extends AppPage {
++    // get jsPracticeCourse () { return $('a=JavaScript Syntax') }
++    get jsPracticeCourse () { return $('a=JavaScript Syntax') }
++}
++
++export default new CoursesPage();
+\ No newline at end of file

@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0c2ff70-a40d-44ca-8529-03ffc6e0a048" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_11_2021_3_56_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageobjects/app.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/courses.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/courses.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/auth.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +158,7 @@
       <workItem from="1612235593966" duration="23000" />
       <workItem from="1612455545306" duration="104000" />
       <workItem from="1612559451568" duration="2602000" />
-      <workItem from="1612562747125" duration="9008000" />
+      <workItem from="1612562747125" duration="10313000" />
     </task>
     <task id="LOCAL-00001" summary="update reports">
       <created>1613087401675</created>
@@ -178,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613088079442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update reports">
+      <created>1613088851382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613088851382</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update reports">
+      <created>1613088859414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613088859414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
